@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+.container {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: rgb(39, 16, 252);
+    margin: 20px ;
+    padding: 8px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.container input{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 8px;
+    width: 30%;
+    padding: 15px 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+}
+
+button {
+    padding: 15px 60px;
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.mensagem-sucess{
+    background-color: aliceblue;
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: black;
+    border: 5px solid black;
+    display: none;
+    margin: 0px 100px;
+}
+
+.error-message{
+    margin-bottom: 2px;
+    padding: 5px;
+    background-color: rgb(252, 0, 0);
+    margin: 0px 300px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border: red;
+    outline-color: red;
+}
